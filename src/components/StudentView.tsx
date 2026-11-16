@@ -2097,10 +2097,13 @@ export const StudentView: React.FC<StudentViewProps> = ({
                       <div className="max-w-[88%] bg-[#FFFFFF] border border-[#E5DFD3] rounded-2xl rounded-tl-xs p-4 text-xs text-[#263A50] shadow-xs space-y-2">
                         <p className="whitespace-pre-wrap leading-relaxed">{inter.respuesta_doc}</p>
                         {inter.fue_fallback && (
-                          <div className="flex items-center justify-end text-[10px] text-[#586879] pt-1.5 border-t border-[#F0EBE0]">
-                            <span className="bg-[#EEE7D7] text-[#263A50] px-1.5 py-0.5 rounded">
-                              Respuesta de respaldo local
-                            </span>
+                          <div className="flex items-center justify-end">
+                            <span
+                              role="img"
+                              aria-label="Respuesta de respaldo"
+                              title="Respuesta de respaldo"
+                              className="inline-block w-2 h-2 rounded-full bg-[#9CA3AF]"
+                            />
                           </div>
                         )}
                       </div>
