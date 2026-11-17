@@ -108,14 +108,13 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess }) => {
             <div className="space-y-3">
               <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-[#EBF1EC] text-[#263A50] text-xs font-medium border border-[#D0DEC7]">
                 <span className="w-2 h-2 rounded-full bg-[#819783]" />
-                <span>Autenticación Institucional Segura</span>
+                <span>Ingreso Institucional</span>
               </div>
               <h1 className="font-serif text-3xl sm:text-4xl text-[#263A50] font-bold leading-tight">
-                Una identidad cercana y adulta al servicio de la permanencia.
+                DOCE: sistema de acompañamiento estudiantil.
               </h1>
               <p className="text-sm text-[#586879] leading-relaxed">
-                El ecosistema digital <strong className="text-[#263A50]">DOCE</strong> articula un modelo dual de inteligencia artificial
-                (Red Neuronal de alerta temprana y Agente Conversacional) para acompañar la trayectoria de los estudiantes de la Tecnicatura en Ciencia de Datos e IA.
+              Un entorno digital para organizar la cursada, acompañar trayectorias y facilitar el acceso a herramientas de apoyo para estudiantes y equipos institucionales del IFTS N.º 12.
               </p>
             </div>
 
@@ -123,10 +122,10 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess }) => {
             <div className="bg-[#FFFFFF] border border-[#E5DFD3] rounded-2xl p-5 shadow-xs space-y-3">
               <div className="flex items-center space-x-2 text-xs font-bold text-[#263A50] uppercase tracking-wider">
                 <ShieldCheck className="w-4 h-4 text-[#819783] stroke-[2]" />
-                <span>Control de Acceso por Roles (RBAC)</span>
+                <span>Acceso según perfil</span>
               </div>
               <p className="text-xs text-[#586879] leading-relaxed">
-                Al identificarse, el sistema inicializa la sesión en el servidor y abre <strong>únicamente el área funcional asignada</strong> a su rol profesional o académico:
+                Las áreas del sistema se organizan según el perfil de cada usuario. Los módulos Docente e Institucional forman parte de las ampliaciones previstas.
               </p>
               <div className="grid grid-cols-2 gap-2 text-[11px] text-[#263A50] pt-1">
                 <div className="bg-[#FAF8F1] p-2.5 rounded-xl border border-[#EEE7D7] flex items-center space-x-2">
@@ -139,11 +138,11 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess }) => {
                 </div>
                 <div className="bg-[#FAF8F1] p-2.5 rounded-xl border border-[#EEE7D7] flex items-center space-x-2">
                   <Palette className="w-3.5 h-3.5 text-[#263A50] shrink-0" />
-                  <span>Área Identidad</span>
+                  <span>Área Institucional</span>
                 </div>
                 <div className="bg-[#FAF8F1] p-2.5 rounded-xl border border-[#EEE7D7] flex items-center space-x-2">
                   <BrainCircuit className="w-3.5 h-3.5 text-[#819783] shrink-0" />
-                  <span>Área Laboratorio</span>
+                  <span>Área Docente</span>
                 </div>
               </div>
             </div>
