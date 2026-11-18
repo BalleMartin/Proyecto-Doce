@@ -438,7 +438,7 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess }) => {
             <span>Instituto de Formación Técnica Superior N.º 12 · CABA</span>
           </div>
           <div className="flex items-center space-x-2 text-[11px]">
-            <span>Grupo 6 · Medios de Comunicación</span>
+            <span>Grupo 6</span>
             <span>·</span>
             <span className="text-[#819783] font-medium">Tecnicatura en Ciencia de Datos e IA</span>
           </div>
